@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+#allCards {
+  display: flex;
+  justify-content:space-evenly;
+}
+
+#card {
+  width: 300px;
+  height: 200px;
+  border-radius: 3%;
+}
+
+.tipo {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.expira {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+#monthYear {
+  margin-right: 30px;
+}
+
+.propietario {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
+
+}
+
+
